@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: #cb021c;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.hamburger{
+  position:fixed;
+  top:1rem;
+  left:1rem;
+  font-size: 2rem;
+}
+.phone {
+  position: fixed;
+  top: 1rem;
+  right:1rem;
+  font-size: 2rem;
+}
+.logo
+{
+  font-size: 2rem;
+  color: white;
+  margin: 2rem 0;
+  text-align: center;
+}
+.logo i {
+  font-size: 3rem;
+}
+
+.logo h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+.logo p {
+  margin: 0;
+  color: black;
+}
