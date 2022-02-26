@@ -3,10 +3,11 @@
 
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: #cb021c;
-  margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -30,7 +31,7 @@ a{
 {
   font-size: 2rem;
   color: white;
-  margin: 2rem 0;
+  margin: 1rem auto;
   text-align: center;
 }
 .logo i {
@@ -44,5 +45,61 @@ a{
 
 .logo p {
   margin: 0;
+  font-weight: bold;
   color: black;
+}
+
+.carousel{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height:60vh;
+  margin-top: 2rem;
+}
+.carousel-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform: translateX(0); */
+}
+.slide {
+  text-align: center;
+  width: 100vw;
+}
+
+.slide img {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+}
+.slide h1 
+{
+  padding:0;
+  margin-top: -1rem;
+  font-size: 4rem;
+  color: white;
+}
+.slide a {
+  background-color: #40020e;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.arrow {
+  background-color: transparent;
+  font-size: 3rem;
+  position: absolute;
+  top: 30%;
+  border: 0;
+  opacity: 0.5;
+  color: black;
+  /* transform: translateY(-70%); */
+}
+
+.left-arrow{
+  left:2rem;
+}
+.right-arrow {
+  right: 2rem;
 }
